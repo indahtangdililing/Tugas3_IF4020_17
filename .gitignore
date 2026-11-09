@@ -1,0 +1,13 @@
+/dist/
+*.exe
+*.test
+*.out
+
+*.key.pem
+!test/keys/*.key.pem
+
+bench/artifacts/
+
+.DS_Store
+.idea/
+.vscode/
