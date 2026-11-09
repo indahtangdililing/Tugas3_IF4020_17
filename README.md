@@ -1,4 +1,4 @@
-CLI memakai Cobra; go install supaya bisa dipanggil langsung lewat kelompok17.
+CLI pakai Cobra
 
 ## Yang udah
 - CLI: `keygen`, `sign`, `verify`, dan `trust add/list/remove`.
