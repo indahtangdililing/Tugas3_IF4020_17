@@ -7,6 +7,8 @@ import (
 	"kelompok17/internal/core"
 )
 
+var version = "dev"
+
 func main() {
-	os.Exit(execute(app.Service{Core: core.Core{}}, "0.1.0-dev", os.Args[1:], os.Stdout, os.Stderr))
+	os.Exit(execute(app.Service{Core: core.Core{}}, version, os.Args[1:], os.Stdout, os.Stderr))
 }

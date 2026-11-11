@@ -1,0 +1,6 @@
+.git
+**/*.key.pem
+.github
+bench/artifacts/
+docs/
+dist/
